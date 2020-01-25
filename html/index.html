@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="gl">
+  <head>
+    <title>La web de las Vacas</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Mario Blanco Cid" />
+    <meta
+      name="description"
+      content="La web interactiva para comprar vacas en Galicia"
+    />
+    <meta name="Version" content="1.0.1" />
+  </head>
+  <body>
+    <header>
+      <h1>Vacas</h1>
+      <nav>
+        <ul>
+          <li><a href="/lorem/loremipsum1.html">Lorem ipsum</a></li>
+          <li><a href="/lorem/loremipsum2.html">Lorem ipsum</a></li>
+          <li id="comprar"><a href="/lorem/comprar.html">Comprar</a></li>
+          <!--Al elemento "Comprar" le he puesto el id "comprar" ya que
+                    posteriormente con CCS podré trackearlo y hacer que se vea con 
+                    esa caja negra de fondo.-->
+        </ul>
+        <img src="/images/vacafondo.jpg" alt="Foto de una vaca de fondo" />
+      </nav>
+    </header>
+    <main>
+      <section id="principal">
+        <h2>Lorem ipsum</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          tempor diam at pellentesque laoreet. Sed dapibus sem tellus, non
+          efficitur orci molestie mollis. Morbi venenatis gravida ex, eu
+          pharetra urna volutpat at. Curabitur eget faucibus magna. Integer a
+          justo ligula.
+        </p>
+        <p>
+          Nam purus nisl, blandit eget iaculis at, interdum et nulla. Mauris ut
+          ante dignissim, accumsan neque at, vulputate massa. Nulla lobortis.
+        </p>
+        <p>
+          Nam purus nisl, blandit eget iaculis at, interdum et nulla. Mauris ut
+          ante dignissim, accumsan neque at, vulputate massa. Nulla lobortis,
+          sapien sit amet hendrerit ullamcorper, risus magna venenatis elit, nec
+          condimentum nisl massa id ex. Sed fermentum orci nec erat cursus
+          cursus. Integer bibendum lacus molestie metus iaculis, ac hendrerit
+          diam ullamcorper. Mauris placerat arcu pellentesque imperdiet
+          pellentesque.
+        </p>
+      </section>
+      <section id="compravacas">
+        <ul>
+          <li>
+            <img src="/images/vaca1.jpg" alt="Foto de una vaca rubia" />
+            <h2>Vaca 1</h2>
+            <p>
+              Nulla lobortis, sapien sit amet hendrerit ullamcorper, risus magna
+              venenatis elit, nec condimentum nisl massa id ex. Sed fermentum
+              orci nec erat cursus cursus
+            </p>
+            <a href="/vacas/comprarvaca1.html">Comprar</a>
+          </li>
+          <li>
+            <img src="/images/vaca2.jpg" alt="Foto de una vaca blanca" />
+            <h2>Vaca 2</h2>
+            <p>
+              Nulla lobortis, sapien sit amet hendrerit ullamcorper, risus magna
+              venenatis elit, nec condimentum nisl massa id ex. Sed fermentum
+              orci nec erat cursus cursus
+            </p>
+            <a href="/vacas/comprarvaca2.html">Comprar</a>
+          </li>
+          <li>
+            <img src="/images/vaca3.jpg" alt="Foto de una vaca más oscura" />
+            <h2>Vaca 3</h2>
+            <p>
+              Nulla lobortis, sapien sit amet hendrerit ullamcorper, risus magna
+              venenatis elit, nec condimentum nisl massa id ex. Sed fermentum
+              orci nec erat cursus cursus
+            </p>
+            <a href="/vacas/comprarvaca3.html">Comprar</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <h1>Lorem ipsum dolor sit amet, consequentur limites sulivan.</h1>
+      <form>
+        <fieldset>
+          <label for="nombre">Nome e apelidos</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <label for="direccion">Dirección</label>
+          <input type="text" id="direccion" name="direccion" required />
+          <label for="provincia">Provincia</label>
+          <input list="provincias" id="provincia" name="provincia" required />
+          <datalist id="provincias">
+            <option value=""> </option>
+            <option value="A Coruña"> </option>
+            <option value="Vigo"> </option>
+            <option value="Ourense"> </option>
+            <option value="Lugo"> </option>
+          </datalist>
+
+          <label for="comentarios">Comentarios</label>
+          <textarea id="comentarios" name="comentarios" required></textarea>
+          <label for="newsletter">Recibir Newsletter?</label>
+          <input type="checkbox" id="newsletter" name="newsletter" value="si" />
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </footer>
+  </body>
+</html>
