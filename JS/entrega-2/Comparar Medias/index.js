@@ -5,7 +5,7 @@ function cMedia(media) {
 }
 
 function compareNumbers(a, b) {
-  return a - b;
+  return a[1] - b[1];
 }
 
 function compararMedias(param1, param2, param3) {
@@ -13,7 +13,7 @@ function compararMedias(param1, param2, param3) {
   let media2 = cMedia(param2);
   let media3 = cMedia(param3);
   console.log('Medias: Equipo 1: ' + media1 + ' Equipo 2: ' + media2 + ' Equipo 3: ' + media3);
-  let mediasOrdenadas = [media1, media2, media3];
+  let mediasOrdenadas = [['ElEquipoDeMaria', media1], ['ElEquipoDePaula', media2], ['ElEquipoDeRebeca', media3]];
   mediasOrdenadas.sort(compareNumbers);
   console.log('Media más alta: ' + mediasOrdenadas[2]);
 }
