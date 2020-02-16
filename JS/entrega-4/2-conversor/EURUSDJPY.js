@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 const urlEUR = 'https://api.exchangerate-api.com/v4/latest/EUR';
 const urlUSD = 'https://api.exchangerate-api.com/v4/latest/USD';
 function getCoins(EUR) {
