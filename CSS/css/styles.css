@@ -18,12 +18,13 @@ header {
   background-image: url(/images/vacafondo.jpg);
   background-position: center;
   background-size: cover;
-  min-height: 40vh;
+  min-height: 20vh;
 }
 ul {
   color: white;
   list-style-type: none;
   display: flex;
+  flex-direction: column;
   align-items: baseline;
   font-size: 0.8rem;
 }
@@ -31,12 +32,13 @@ ul#uno li{
   padding: 1rem 0rem;
   margin: 0 0.4rem;
   font-weight: bold;
+  font-size: 2rem;
 }
 ul#uno li:first-child{
-  order: 1;
+  order: 0;
   flex-grow: 1;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 3.8rem;
   font-weight: bolder;
 }
 header nav ul li a{
@@ -45,12 +47,14 @@ header nav ul li a{
   justify-self: flex-end;
 }
 ul#uno li#comprar{
-  font-size: 0.6rem;
+  flex-grow: 0;
+  text-align: center;
+  font-size: 1.3rem;
   font-weight: bold;
   background-color: black;
   order: 2;
   padding: 0.4rem 1.5rem;
-  margin: 0 1rem;
+  margin: 1rem 0.5rem;
 }
 
 ul li#comprar a{
@@ -61,14 +65,14 @@ main {
   margin: 1rem;
 }
 main section p{
-  columns: 2;
-  font-size: 1.3rem;
+  columns: 1;
+  font-size: 0.9rem;
   margin-top: 0.5rem;
 }
 main section h2 {
   color: white;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 section.compravacas ul{
   display: flex;
@@ -96,6 +100,8 @@ section.compravacas ul li p{
   columns: 1;
   text-align: left;
   padding: 0 1rem;
+  font-size: 0.6rem;
+  text-align: left;
   font-weight: bold;
 }
 section.compravacas ul li a{
@@ -125,15 +131,17 @@ form fieldset {
 }
 form fieldset ul{
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   margin: 1rem 0;
 }
 form fieldset ul li{
-  flex-basis: 50%;
+  font-size: 2rem;
   margin-right: 0rem;
 }
 form fieldset ul li input{
   min-width: 40vw;
+  max-width: 40vw;
 }
 form fieldset ul li:nth-child(4) textarea{
   min-width: 50vw;
@@ -150,6 +158,62 @@ input, textarea {
 form fieldset ul li label{
   color: black;
 }
+form section{
+    font-size: 2rem;
+}
 form section input{
   display: inline;
+  min-width: 30px;
+  min-height: 30px;
+}
+form section button {
+  font-size: 2rem;
+  min-width: 100px;
+  min-height: 40px;
+}
+
+@media (min-width: 700px) {
+  header{
+    min-height: 40vw;
+  }
+  ul {
+  flex-direction: row;
+  }
+  ul#uno li{
+    font-size: 1.2rem;
+  }
+  ul#uno li:first-child{
+    order: 1;
+    padding-right: 5rem;
+  }
+  main section p{
+    columns: 2;
+    font-size: 1.3rem;
+  }
+  footer{
+    font-size: 2.4rem;
+  }
+  footer{
+  font-size: 2.5rem;
+  }
+  form fieldset ul li{
+  font-size: 1.5rem;
+  }
+  form section{
+    font-size: 1.5rem;
+}
+  form section input{
+  min-width: 25px;
+  min-height: 25px;
+}
+form section button {
+  font-size: 1.5rem;
+} 
+}
+@media (min-width: 1000px) {
+  main section p{
+    font-size: 1.6rem;
+  }
+  section.compravacas ul li p{
+    font-size: 1.3rem;
 }
