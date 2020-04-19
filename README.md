@@ -1,2 +1,0 @@
-# HABMarioblancocid
-My personal repository
