@@ -1,0 +1,2 @@
+Contenido del fichero1.txt
+Lorem Ipsum Dolor est
