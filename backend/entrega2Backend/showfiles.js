@@ -6,7 +6,7 @@ var argv = parseArgs(process.argv.slice(2));
 
 for (const file of argv._) {
   let filePath = path.resolve(__dirname, file);
-  var stats = fs.statSync(file);
+  var stats = fs.statSync(filePath);
   var fileSizeInBytes = stats["size"];
   if (fileSizeInBytes < 10000) {
     fs.readFile(file, { encoding: "utf-8" }, function read(err, data) {
