@@ -1,10 +1,10 @@
 # Bienvenidos a mi GitHub personal
 
-En este GitHub encontrareis todos mis proyectos ordenados en diferentes repositorios, realizados durante la realización del bootcamp de Hack A Boss en A Coruña.
+En este GitHub encontrareis todos mis proyectos ordenados en diferentes repositorios, encontrando como parte principal los ejercicios realizados para el bootcamp de Hack A Boss en A Coruña.
 
 ## Contenidos
 
-El repositorio [entregas-hab](https://github.com/Marioblancocid/entregas-hab) contiene diferentes directorios ordenados en función de las entregas realizadas en dicho bootcamp, a continuación se listan los módulos principales tratados:
+El repositorio [entregas-hab](https://github.com/Marioblancocid/entregas-hab) contiene diferentes directorios ordenados en función de las entregas realizadas en dicho bootcamp, a continuación se listan los módulos principales:
 
 * [HTML](https://github.com/Marioblancocid/entregas-hab/tree/master/html) - HyperText Markup Language
 * [CSS](https://github.com/Marioblancocid/entregas-hab/tree/master/CSS) - Cascading Style Sheets
