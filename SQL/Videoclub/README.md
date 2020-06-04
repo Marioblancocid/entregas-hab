@@ -1,3 +1,8 @@
+# SQL - Base de Datos
+
+Este módulo de JavaScript contiene una entrega de SQL donde se diseñó la base de datos de un videoclub, a continuación se adjunta el título del ejercicio:
+
+
 Estamos en 1995 y vamos a diseñar una solución para un videoclub que un amigo va a abrir en nuestro pueblo. Para empezar va a ser un sistema muy básico que le permita principalmente gestionar los alquileres de las películas y mostrar el catálogo de películas en una futura web.
 
 Necesitamos tener la información de las películas, lo básico para poder gestionar los alquileres, y más información para el catálogo web: nombre descripción, PEGI y a mayores una carátula, director y actores o actrices. Sabemos que una película va a tener 1 o más directores y 1 o más actores/actrices.
