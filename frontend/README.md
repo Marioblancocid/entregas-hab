@@ -1,4 +1,5 @@
 # Proyecto VueJS - Rick y Morty
+
 Este proyecto es una aplicacion web funcional en la cual puedes ver todos los personajes de rick y morty junto con sus características.
 Cuenta con un buscador por ID, Nombre, Estado y Raza.
 Tambien cuenta con una página about donde encontrareis información sobre el autor.
