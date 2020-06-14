@@ -1,0 +1,27 @@
+{
+  "name": "proyectoclientes",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/api/api.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "@sweetalert2/theme-dark": "^3.1.4",
+    "core-js": "^3.6.5",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "sweetalert2": "^9.14.4",
+    "vue": "^2.6.11",
+    "vue-headful": "^2.1.0",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-router": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
